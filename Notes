@@ -1,0 +1,35 @@
+/*
+NOTES:
+
+Values:
+  strings: "ED"
+  numbers: 1100
+  boolean : true
+
+Create a variable:
+  _ = space
+  var_varName_=_value;
+
+create an array:
+  var_arrName_=_[value1,value2,etc];
+
+creaete if statement:
+  if_(boolean)_{
+  -> code to be run if boolean is true
+  }
+
+create loop that runs 10 times
+  for_(var_i_=_0,_i_<_10,_i++){
+  -->code to run per loop
+
+send to console:
+  console.log(variable);
+
+  /*
+  == : comparison
+  === : Type comparison
+  >= or >==: equal to or greater
+  <= or <==: equal to or smaller
+  != or !==: should not be the same as left side
+  *use 2 variables and a comparator to make a boolean
+  */

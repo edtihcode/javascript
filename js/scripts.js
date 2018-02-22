@@ -48,11 +48,10 @@ var count = 0;
 
 while (count < 10) {
   //count = count+ 1; //or count ++;
+  //count-- = count - 1
   count++;
   console.log("THe current loop is " + count);
   console.log(sum1, sum2);
-
-
 }
 
 
