@@ -66,3 +66,27 @@ while (count<20) {
   }
 
 }
+/*
+NOTES:
+
+Values:
+  strings: "ED"
+  numbers: 1100
+  boolean : true
+
+Create a variable:
+  _ = space
+  var_varName_=_value;
+
+create an array:
+  var_arrName_=_[value1,value2,etc];
+
+creaete if statement:
+  if_(boolean)_{
+  -> code to be run if boolean is true
+  }
+
+create loop that runs 10 times
+  for_(var_i_=_0,_i_<_10,_i++){
+  -->code to run per loop
+  }

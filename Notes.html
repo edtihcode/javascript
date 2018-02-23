@@ -1,0 +1,171 @@
+/*
+NOTES:
+
+Data Types Values:
+  strings: "ED"
+  numbers: 1100
+  boolean : true
+
+Create a variable:
+  _ = space
+  var_varName_=_value;
+
+create an array:
+  var_arrName_=_[value1,_value2,_etc];
+
+creaete if statement:
+  if_(boolean)_{
+  -> code to be run if boolean is true
+  }
+
+create loop that runs 10 times
+  for_(var_i_=_0,_i_<_10,_i++){
+  -->code to run per loop
+
+send to console:
+  console.log(variable);
+
+
+  /*
+  == : comparison
+  === : Type comparison
+  >= or >==: equal to or greater
+  <= or <==: equal to or smaller
+  != or !==: should not be the same as left side
+  *use 2 variables and a comparator to make a boolean
+  concatenate :string_+_strings
+  add:Number_+_Number
+  */
+
+  console.log("Hello");
+  //alert ("Hello");
+
+  var a = 1;
+  var b = 1;
+  var c = 2;
+  var word = "Power";
+  var topic = "Programming";
+  var e = "Ed";
+  var num = 100;
+
+  // console.log(a);
+  // console.log(e);
+  // console.log(a + e);
+  // console.log(a + b);
+
+  // if (true) {
+  //   console.log(e);
+  // }
+  //
+  //
+  // if (a == b) {
+  //   console.log( a + " and " + b +" are the same");
+  // }
+  //
+  // for (var i = 0; i < 10; i++) {
+  //   console.log("The " + word + " of " + topic + " !");
+  // }
+
+
+  // if (num > a) {
+  //   console.log(num + " is bigger than " + a);
+  //   if (c < num) {
+  //     console.log(num + " is also bigger than " + c);
+  //   }
+  // }
+
+  // if (a == e) {
+  //   for (var i = 0; i < 10; i++) {
+  //       console.log("its running");
+  //   }
+  // }
+  //
+  // var arrayName = [a, b, c, word, topic, e, num];
+  // console.log(arrayName);
+  //
+  // for (var i = 0; i < arrayName.length; i++) {
+  //   console.log(arrayName[i]);
+  // }
+  //
+  // while (i <= arrayName.length) {
+  //
+  // }
+
+  i = 0;
+  while (i < arrayName.length) {
+    console.log(arrayName[i]);
+    i++;
+  }
+  //
+  // function myFirstFunction(text, number) {
+  //     console.log(text);
+  //     console.log(number);
+  // }
+  //
+  // myFirstFunction("asd");
+  // myFirstFunction("dasdd");
+  // myFirstFunction("asd",2321);
+  //
+
+  function myFirstFunction(a, b) {
+      var sum = a + b;
+      var mul = a * b;
+      console.log("addition for " + a + "+" + b +" is "+  sum);
+      console.log("multiple for " + a + "x" + b +" is "+  mul);
+  }
+
+  myFirstFunction(1,2);
+  myFirstFunction(4,2);
+  //
+  // function myFirstFunction(text, number) {
+  //     console.log(text);
+  //     console.log(number);
+  // }
+  //
+  // myFirstFunction("asd");
+  // myFirstFunction("dasdd");
+  // myFirstFunction("asd",2321);
+  //
+
+  function myFirstFunction(a, b) {
+      var sum = a + b;
+      var mul = a * b;
+      console.log("addition for " + a + "+" + b +" is "+  sum);
+      console.log("multiply for " + a + "x" + b +" is "+  mul);
+  }
+
+  myFirstFunction(1,2);
+  myFirstFunction(4,2);
+
+w3d5
+  // to escape a character eg using ' as a string use ""\"' before the character to ignore it eg below:
+  var text = 'TOday\'s weather is really nice'
+
+  var html = document.getElementsByTagName("body");
+  //document select the html document and search for the section body and name it var html. Note: element(s)
+
+  var nameID = document.getElementById("bodyID");
+  // find element by ID if you have something called ID eg.Note: its called Element not element(s)
+  // <body id = "bodyID">
+  //     <script src="js/practicescript.js"></script> <!--needed for javascript[-->]
+  // </body>
+  // console.log(html);
+
+  var byClass = document.getElementsByClassName("words")
+
+
+  document.getElementById("bodyID").innerHTML = "Test"
+  document.getElementsByClassName("words").innerHTML = "Test2"
+  console.log(nameID);
+  console.log(byClass);
+
+  var firstNumber = prompt("Type in the first number.");
+  firstNumber = parseInt(firstNumber);
+
+  var secondNumber = prompt("Type in the second number.");
+  secondNumber = parseInt(secondNumber);
+  //or secondNumber =  parseInt(prompt("Type in the first number."));
+
+  var sum = firstNumber * secondNumber;
+
+  document.getElementById("bodyID").innerHTML = "<h1>" + sum +  "</h1>";

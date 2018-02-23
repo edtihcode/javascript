@@ -44,3 +44,24 @@ var myarray = ["no1","no2","no3","4","haha"];
   for (var i = 0; i < myarray.length; i++) {
     console.log(myarray[i]);
   }
+
+  //
+  // function myFirstFunction(text, number) {
+  //     console.log(text);
+  //     console.log(number);
+  // }
+  //
+  // myFirstFunction("asd");
+  // myFirstFunction("dasdd");
+  // myFirstFunction("asd",2321);
+  //
+
+  // function myFirstFunction(a, b) {
+  //     var sum = a + b;
+  //     var mul = a * b;
+  //     console.log("addition for " + a + "+" + b +" is "+  sum);
+  //     console.log("multiply for " + a + "x" + b +" is "+  mul);
+  // }
+  //
+  // myFirstFunction(1,2);
+  // myFirstFunction(4,2);
