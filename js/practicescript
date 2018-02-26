@@ -1,0 +1,10 @@
+
+function printHello() {
+  console.log("hello");
+}
+function multiply() {
+  var firstNumber = document.getElementById("num1").value;
+  
+  console.log("work");
+}
+function
